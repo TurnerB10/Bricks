@@ -393,7 +393,7 @@ function keyUp(e) {
             break;
     }
 }
-
+/*
 function mouseDown(e) {
 	var x = e.pageX - canvas.offsetLeft;
 	var y = e.pageY - canvas.offsetTop;
@@ -401,7 +401,7 @@ function mouseDown(e) {
 	target.setMidX(x);
 	target.setMidY(y);
 }
-
+*/
 function collideRect(a, b) {
 	if(a.getLeft() > b.getRight()) return false;
 	
