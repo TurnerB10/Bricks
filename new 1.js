@@ -72,7 +72,7 @@ function init() {
 
     document.addEventListener('keydown', keyDown, false);
     document.addEventListener('keyup', keyUp, false);
-	document.addEventListener('mousedown', mouseDown, false);
+//	document.addEventListener('mousedown', mouseDown, false);
 
     gameLoop();
 }
